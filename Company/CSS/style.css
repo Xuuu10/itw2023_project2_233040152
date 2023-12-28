@@ -1,0 +1,143 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+/* VARIABLES */
+:root {
+    --primary-color: rgb(4, 4, 155);
+    --dark-color: black;
+    --gray-color: gray;
+
+    --h1-font-size: 45px;
+    --h2-font-size: 32px;
+    --small-font-size: 14px;
+}
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+/* GLOBAL CSS */
+section {
+    padding: 70px 0;
+}
+
+section .section-title {
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:0  2px 2px black;
+}
+
+.btn-blue {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-dark {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.text-blue {
+    color: var(--primary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.fs-7 {
+    font-size: var(--small-font-size);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+/* MAIN STYLE */
+
+body {
+    background-color: #f4eee0;
+    background-size: cover;
+   
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .container .navbar-brand {
+    color: var(--primary-color);
+    text-shadow:  0 2px 2px var(--primary-color);
+    font-size: 60px;
+}
+
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+    color: var(--primary-color);
+}
+
+/* HEADER */
+.header-section {
+    padding-top: 180px;
+}
+
+.header-section .header-title {
+    font-size: var(--h1-font-size)
+}
+
+.header-section .header-skill {
+    color: var(--dark-color);
+}
+
+.header-section .header-skill:hover {
+    color: var(--primary-color);
+}
+
+.header-section .header-skill i {
+    transition: .3s;
+}
+
+.header-section .header-skill:hover i {
+    transform: rotate(-45deg);
+}
+
+.header-section .header-img {
+    border-radius: 30%;
+}
+
+/* ABOUT */
+.about-section {
+    padding-top: 140px;
+}
+
+.about-section img {
+    border-radius: 20px;
+}
+
+.menu-section .card {
+    border: 0;
+}
+
+/* CONTACT */
+.contact-section .row .maps {
+    background-size: cover;
+}
+
+/* Footer */
+.footer .card {
+    border: 0;
+}
