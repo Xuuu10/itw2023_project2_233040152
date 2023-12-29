@@ -129,7 +129,7 @@ body {
 
 .header-section .header-img {
     width: 100%;
-    border-radius: 10%;
+    border-radius: 20px;
 }
 
 /* ABOUT */
@@ -154,6 +154,7 @@ body {
     padding-top: 140px;
     padding-bottom: 125px;
 }
+
 
 /* CONTACT */
 .contact-section .row .maps {
