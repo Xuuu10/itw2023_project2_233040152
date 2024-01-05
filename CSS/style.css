@@ -152,6 +152,13 @@ body {
   padding-top: 140px;
 }
 
+#menu img {
+  width: 400px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
 /* SERVICE */
 .service-section {
   padding-top: 140px;
