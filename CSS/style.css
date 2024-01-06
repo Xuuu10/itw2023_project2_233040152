@@ -103,7 +103,7 @@ body {
   color: #ffffff;
 }
 
-/* HEADER */
+/* Home */
 .header-section {
   padding-top: 180px;
 }
@@ -144,6 +144,7 @@ body {
   border-radius: 20px;
 }
 
+/* Menu */
 .menu-section .card {
   border: 0;
 }
@@ -157,6 +158,12 @@ body {
   height: 200px;
   background-position: center;
   background-size: cover;
+}
+
+.menu-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #dadada;
+  font-size: 40px;
 }
 
 /* SERVICE */
